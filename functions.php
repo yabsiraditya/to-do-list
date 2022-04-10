@@ -1,6 +1,6 @@
 <?php 
 session_start();
-$conn = mysqli_connect("localhost", "root", "", "phptodolist");
+$conn = mysqli_connect("ec2-3-230-122-20.compute-1.amazonaws.com", "krtcgobsdmavby", "53b9deae0cad1696c41df6d3506c9b62521ee8fbcc26873614b8d3ba2adb3740", "d7fg9itheb8rad");
 
 // Query Data
 function query($query) {
